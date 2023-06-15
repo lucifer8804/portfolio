@@ -1,6 +1,6 @@
 body
 {   
-   
+    background-color: rgb(53, 51, 51);
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -51,7 +51,7 @@ img{
     justify-content: center;
     background-color: aliceblue;
     width:auto;
-    border:2px solid blue;
+
 }
 
 
@@ -73,7 +73,7 @@ img{
 #about{
     padding: 10px;
     background-color:rgb(53, 51, 51);
-    border:2px solid rgb(26, 18, 231);
+    
 }
 
 .hcentre
@@ -99,7 +99,7 @@ img{
     background-color: rgb(53, 51, 51);
     padding: 0px;
     margin: 0px;
-    border:2px solid  rgb(26, 18, 231) ;
+    
 
 }
 #Projects
@@ -107,7 +107,7 @@ img{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    border:2px solid  rgb(26, 18, 231) ;
+    
 }
 #contact
 {   padding: 0px;
@@ -116,7 +116,7 @@ img{
     flex-direction: column;
     align-items: center;
     background-color: rgb(53, 51, 51);
-    border:2px solid  rgb(26, 18, 231) ;
+    
 
 
 }
@@ -156,11 +156,12 @@ display: flex;
 }
 .foot
 {
+    background-color:whitesmoke ;
     display: flex;
     justify-content: center;
 }
 
-@media (max-width:800px)
+@media (max-width:950px)
  {
     
     .first
@@ -192,7 +193,7 @@ display: flex;
         padding: 0px;
         margin: 0px;
         width: 100%;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-family: 'Russo One', sans-serif;
         color: whitesmoke;
         
@@ -204,7 +205,7 @@ display: flex;
     justify-content:flex-start;
     background-color: aliceblue;
     width:auto;
-    border:2px solid blue;
+ 
 }
 
 
@@ -227,7 +228,7 @@ display: flex;
 #about{
     padding: 0px;
     background-color:rgb(53, 51, 51);
-    border:2px solid rgb(26, 18, 231);
+    
 }
 
 .hcentre
@@ -245,7 +246,7 @@ display: flex;
     display: flex;
     justify-content: center;
     color: aliceblue;
-    font-size: 15px;
+    font-size: 12px;
 }
 .skill{
     display:flex;
@@ -254,7 +255,7 @@ display: flex;
     padding: 0px;
     width:auto;
     margin: 0px;
-    border:2px solid  rgb(26, 18, 231) ;
+   
 
 }
 #Projects
@@ -262,9 +263,58 @@ display: flex;
     display: flex;
     justify-content: space-around;
     width: auto;
-    border:2px solid  rgb(26, 18, 231) ;
+    
 }
+#contact
+{   padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(53, 51, 51);
+  
 
+
+}
+.links{
+display: flex;
+ gap: 20px;
+ flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+}
+#contact >h1{
+    color:  aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+
+}
+.icon
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    color:  aliceblue;
+}
+#under
+{
+    height: 60px;
+    width: 60px;
+    
+}
+.icon>span{
+    font-size: small;
+}
+.foot
+{   background-color:whitesmoke ;
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -304,7 +354,7 @@ display: flex;
         padding: 0px;
         margin: 0px;
         width: 100%;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-family: 'Russo One', sans-serif;
         color: whitesmoke;
         
@@ -315,15 +365,15 @@ display: flex;
 {   display: flex;
     justify-content:flex-start;
     background-color: aliceblue;
-    width:auto;
-    border:2px solid blue;
+    width:100%;
+   
 }
 
 
 .menu
 {   list-style: none;
     display:flex;
-    gap:30%;
+      gap: 15%;
     padding: 0px;
     font-size: 25px;
     font-weight: bold;
@@ -339,7 +389,7 @@ display: flex;
 #about{
     padding: 0px;
     background-color:rgb(53, 51, 51);
-    border:2px solid rgb(26, 18, 231);
+    
 }
 
 .hcentre
@@ -347,7 +397,7 @@ display: flex;
     display:flex;
     justify-content: center;
     color:aliceblue;
-    font-size: 16px;
+    font-size: 10px;
     
 
 }
@@ -357,7 +407,79 @@ display: flex;
     display: flex;
     justify-content: center;
     color: aliceblue;
-    font-size: 15px;
+    font-size: 12px;
 }
+.skill{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(53, 51, 51);
+    padding: 0px;
+    width:auto;
+    margin: 0px;
+   
 
 }
+#Projects
+{   background-color: rgb(53, 51, 51);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+#contact
+{   padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(53, 51, 51);
+  
+
+
+}
+.links{
+display: flex;
+ gap: 10px;
+ flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+}
+#contact >h1{
+    color:  aliceblue;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    flex-direction: column;
+    
+
+
+}
+.icon
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    color:  aliceblue;
+}
+#under
+{
+    height: 50px;
+    width: 50px;
+    
+}
+.icon>span{
+    font-size: small;
+}
+.foot
+{
+    background-color:whitesmoke ;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+}
+
