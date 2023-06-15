@@ -1,0 +1,363 @@
+body
+{   
+   
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.complete
+{
+    width: 100%
+}
+
+.first
+{    background-color: rgb(53, 51, 51);
+
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px; 
+    margin: 0px;
+    padding: 0px;
+    
+}
+img{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    } 
+.first >h1
+{
+    display: flex;
+    justify-content: center;
+    transform: rotate(2deg);
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    font-size: 3rem;
+    font-family: 'Russo One', sans-serif;
+    color: whitesmoke;
+    
+
+}
+
+.navigation
+{   display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    width:auto;
+    border:2px solid blue;
+}
+
+
+.menu
+{   list-style: none;
+    display:flex;
+    gap: 300px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0px ;
+    
+
+}
+.nava{
+    color: rgb(10, 10, 10);
+}
+#about{
+    padding: 10px;
+    background-color:rgb(53, 51, 51);
+    border:2px solid rgb(26, 18, 231);
+}
+
+.hcentre
+{
+    display:flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1.5 rem
+    ;
+
+}
+.para
+{   padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1.4rem;
+}
+.skill{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(53, 51, 51);
+    padding: 0px;
+    margin: 0px;
+    border:2px solid  rgb(26, 18, 231) ;
+
+}
+#Projects
+{   background-color: rgb(53, 51, 51);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border:2px solid  rgb(26, 18, 231) ;
+}
+#contact
+{   padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(53, 51, 51);
+    border:2px solid  rgb(26, 18, 231) ;
+
+
+}
+.links{
+display: flex;
+ gap: 20px;
+ flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+}
+#contact >h1{
+    color:  aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+
+}
+.icon
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    color:  aliceblue;
+}
+#under
+{
+    height: 75px;
+    width: 75px;
+    
+}
+.icon>span{
+    font-size: small;
+}
+.foot
+{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:800px)
+ {
+    
+    .first
+    {    background-color: rgb(53, 51, 51);
+    
+        display:flex; 
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 10px; 
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    img{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        } 
+    .first >h1
+    {
+        display: flex;
+        justify-content: center;
+        transform: rotate(2deg);
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        font-size: 1.5rem;
+        font-family: 'Russo One', sans-serif;
+        color: whitesmoke;
+        
+    
+    }
+
+    .navigation
+{   display: flex;
+    justify-content:flex-start;
+    background-color: aliceblue;
+    width:auto;
+    border:2px solid blue;
+}
+
+
+.menu
+{   list-style: none;
+    display:flex;
+    gap:45%;
+    padding: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0px ;
+    
+
+}
+.nava{
+    color: rgb(10, 10, 10);
+}
+
+#about{
+    padding: 0px;
+    background-color:rgb(53, 51, 51);
+    border:2px solid rgb(26, 18, 231);
+}
+
+.hcentre
+{
+    display:flex;
+    justify-content: center;
+    color:aliceblue;
+    font-size: 16px;
+    
+
+}
+.para
+{   padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 15px;
+}
+.skill{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(53, 51, 51);
+    padding: 0px;
+    width:auto;
+    margin: 0px;
+    border:2px solid  rgb(26, 18, 231) ;
+
+}
+#Projects
+{   background-color: rgb(53, 51, 51);
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    border:2px solid  rgb(26, 18, 231) ;
+}
+
+
+
+
+}
+
+
+
+
+@media (max-width:550px)
+{
+    .first
+    {    background-color: rgb(53, 51, 51);
+    
+        display:flex; 
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 10px; 
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    img{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        } 
+    .first >h1
+    {
+        display: flex;
+        justify-content: center;
+        transform: rotate(2deg);
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        font-size: 1.5rem;
+        font-family: 'Russo One', sans-serif;
+        color: whitesmoke;
+        
+    
+    }
+
+    .navigation
+{   display: flex;
+    justify-content:flex-start;
+    background-color: aliceblue;
+    width:auto;
+    border:2px solid blue;
+}
+
+
+.menu
+{   list-style: none;
+    display:flex;
+    gap:30%;
+    padding: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0px ;
+    
+
+}
+.nava{
+    color: rgb(10, 10, 10);
+}
+
+#about{
+    padding: 0px;
+    background-color:rgb(53, 51, 51);
+    border:2px solid rgb(26, 18, 231);
+}
+
+.hcentre
+{
+    display:flex;
+    justify-content: center;
+    color:aliceblue;
+    font-size: 16px;
+    
+
+}
+.para
+{   padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+}
